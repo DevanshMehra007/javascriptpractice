@@ -270,20 +270,38 @@
 // }
 // sub(2,4)
 
-function even(a)
+// function even(a)
+// {
+//     if(a%2==0)
+//     {
+//         console.log("even");
+        
+//     }
+//     else{
+//         console.log("odd");
+        
+//     }
+// }
+// even(9)
+
+let a=[1,2,3,4,5]
+function evenOdd(a)
 {
-    if(a%2==0)
+    for(let i=0; i<5; i++)
     {
-        console.log("even");
-        
+        if(a[i]%2==0)
+        {
+            console.log(a[i]+" is even ");
+            
+        }
+        else{
+            console.log(a[i]+" is odd ");
+            
+        }
+
     }
-    else{
-        console.log("odd");
-        
-    }
+
 }
-even(9)
-
-
+evenOdd(a)
 
 
