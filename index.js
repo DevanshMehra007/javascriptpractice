@@ -284,24 +284,47 @@
 // }
 // even(9)
 
-let a=[1,2,3,4,5]
-function evenOdd(a)
-{
-    for(let i=0; i<5; i++)
+// let a=[1,2,3,4,5]
+// function evenOdd(a)
+// {
+//     for(let i=0; i<5; i++)
+//     {
+//         if(a[i]%2==0)
+//         {
+//             console.log(a[i]+" is even ");
+            
+//         }
+//         else{
+//             console.log(a[i]+" is odd ");
+            
+//         }
+
+//     }
+
+// }
+// evenOdd(a)
+
+function isPrime(a){
+    count=0;
+
+    for(i=1; i<a/2; i++)
     {
-        if(a[i]%2==0)
+        if(a%i==0)
         {
-            console.log(a[i]+" is even ");
-            
-        }
-        else{
-            console.log(a[i]+" is odd ");
-            
+            count++;
         }
 
     }
-
+    if(count==1)
+    {
+        console.log(`${a} is a prime number`);
+        
+    }
+    else{
+        console.log( `${a} is not a prime number`);
+       
+    }
+    
 }
-evenOdd(a)
 
-
+isPrime(2)
