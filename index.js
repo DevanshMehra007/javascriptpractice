@@ -296,7 +296,6 @@
 //         }
 //         else{
 //             console.log(a[i]+" is odd ");
-            
 //         }
 
 //     }
@@ -304,27 +303,48 @@
 // }
 // evenOdd(a)
 
-function isPrime(a){
-    count=0;
+// function isPrime(a){
+//     count=0;
 
-    for(i=1; i<a/2; i++)
-    {
-        if(a%i==0)
-        {
-            count++;
-        }
+//     for(i=1; i<a/2; i++)
+//     {
+//         if(a%i==0)
+//         {
+//             count++;
+//         }
 
-    }
-    if(count==1)
-    {
-        console.log(`${a} is a prime number`);
+//     }
+//     if(count==1)
+//     {
+//         console.log(`${a} is a prime number`);
         
-    }
-    else{
-        console.log( `${a} is not a prime number`);
+//     }
+//     else{
+//         console.log( `${a} is not a prime number`);
        
-    }
+//     }
     
-}
+// }
 
-isPrime(2)
+// isPrime(2)
+let a;
+function greet(a)
+{
+    a="Hello Everyone"
+    return a;
+
+
+}
+console.log(greet(a));
+
+const x=function greet()
+{
+    const a="hii everyone"
+    return a
+}
+console.log(x());
+
+
+
+
+
