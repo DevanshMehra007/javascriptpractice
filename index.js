@@ -345,6 +345,10 @@ const x=function greet()
 console.log(x());
 
 
-
+let arrFun = () =>{
+    console.log("Hello");
+    
+}
+arrFun()
 
 
