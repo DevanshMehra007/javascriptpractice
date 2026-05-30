@@ -350,7 +350,7 @@
 // }
 // arrFun() 
 
-//const arr=[1,2,true,"Rishab",5, 6,{name:"Reshab"},[7,8]]
+// const arr=[1,2,true,"Rishab",5, 6,{name:"Reshab"},[7,8]]
 
 // const fun=(arr)=>{
  
@@ -361,16 +361,50 @@
 // fun(arr)
 
 
-const obj={
-    name:"Dev",
-    batch:"FSD 12"
+// const obj={
+//     name:"Dev",
+//     batch:"FSD 12"
+// }
+
+// const a=JSON.stringify(obj)
+// console.log(typeof a);
+
+// const s=JSON.parse(a)
+// console.log(typeof s);
+
+// arr1=[1,2,3,4,5]
+// arr2=[6,7,8,9]
+// arr3=[];
+// s=arr1.length+arr2.length
+// let i;
+// for( i = 0; i<arr1.length; i++)
+// {
+//     arr3[i]=arr1[i];
+// }
+// let j=0;
+// for( i; i<s; i++)
+// {
+//     arr3[i]=arr2[j]
+//     j++;
+// }
+
+// console.log(arr3);
+
+const arr=[1,2,3,4,5]
+
+const [x,y, ...rest]=arr
+
+console.log(rest);
+
+obj={
+    name:"dev",
+    batch:"fsd12"
 }
 
-const a=JSON.stringify(obj)
-console.log(typeof a);
+obj1={
+    name:"ansh",
+    batch:"fsd12"
+}
 
-const s=JSON.parse(a)
-console.log(typeof s);
-
-
-
+const a={...obj , ...obj1}
+console.log(a);
