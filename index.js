@@ -327,28 +327,50 @@
 // }
 
 // isPrime(2)
-let a;
-function greet(a)
-{
-    a="Hello Everyone"
-    return a;
+// let a;
+// function greet(a)
+// {
+//     a="Hello Everyone"
+//     return a;
 
 
+// }
+// console.log(greet(a));
+
+// const x=function greet()
+// {
+//     const a="hii everyone"
+//     return a
+// }
+// console.log(x());
+
+
+// const arrFun = () =>{
+//     console.log("Hello");
+// }
+// arrFun() 
+
+//const arr=[1,2,true,"Rishab",5, 6,{name:"Reshab"},[7,8]]
+
+// const fun=(arr)=>{
+ 
+//     for (const key in arr) {
+//        console.log(`type of ${arr[key]} is ${typeof(arr[key])}`);
+//     }
+// }
+// fun(arr)
+
+
+const obj={
+    name:"Dev",
+    batch:"FSD 12"
 }
-console.log(greet(a));
 
-const x=function greet()
-{
-    const a="hii everyone"
-    return a
-}
-console.log(x());
+const a=JSON.stringify(obj)
+console.log(typeof a);
 
+const s=JSON.parse(a)
+console.log(typeof s);
 
-let arrFun = () =>{
-    console.log("Hello");
-    
-}
-arrFun()
 
 
